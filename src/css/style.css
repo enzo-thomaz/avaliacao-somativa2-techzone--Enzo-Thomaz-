@@ -1,0 +1,223 @@
+body{ 
+
+  Margin: 0; 
+
+  Padding: 0; 
+
+  Box-sizing: border-box; 
+
+} 
+
+Body { 
+
+  Font-family: Inter, system-ui, -apple-system, Segoe UI’, Roboto, Arial, sans-serif; 
+
+  Background: #e8f1ff; 
+
+  Color: #093283; 
+
+  Line-height: 1.6; 
+
+  Padding: 1.5rem; 
+
+} 
+
+Header { 
+
+  Background: linear-gradient(135deg, #07203b 0%, #0b63ff 70%); 
+
+  Color: #a08484; 
+
+  Padding: 1.25rem 1rem; 
+
+  Border-radius: 0.5rem; 
+
+  Box-shadow: 0 8px 24px rgba(11,99,255,0.12); 
+
+  Margin-bottom: 1rem; 
+
+} 
+Header h1 { 
+
+  Font-size: 1.5rem; /* em rem (1.5rem = 24px) */ 
+
+  Font-weight: 800; 
+
+} 
+Img { 
+
+  Max-width: 100%; 
+
+  Display: block; 
+
+  Border-radius: 0.5rem; /* borda arredondada nas imagens (efeito pedido) */ 
+
+} 
+
+Table { 
+
+  Width: 100%; 
+
+  Border-collapse: collapse; 
+
+  Margin-top: 0.5rem; 
+
+  Font-size: 0.95rem; 
+
+} 
+Form { 
+
+  Display: flex; 
+
+  Flex-direction: column; 
+
+  Gap: 0.55rem; 
+
+} 
+
+.botao-comprar { 
+
+  Padding: 0.7rem 1rem; 
+
+  Font-weight: 700; 
+
+  Border: none; 
+
+  Border-radius: 0.6rem; /* border-radius solicitado */ 
+
+  Cursor: pointer; 
+
+  Background: linear-gradient(90deg, #ffd166 0%, #945a19 100%); 
+
+  Box-shadow: 0 8px 20px rgba(255,140,0,0.18); 
+
+  Opacity: 0.8; /* efeito opacity inicial */ 
+
+  Transition: all 0.3s ease; /* transition obrigatório */ 
+
+} 
+
+:hover{ 
+
+  Opacity: 1; 
+
+  Transform: translateY(-4px); 
+
+} 
+
+footer{ 
+
+  Margin-top: 1rem; 
+
+  Text-align: center; 
+
+  Font-size: 0.9rem; 
+
+  Color: #000000; 
+
+} 
+
+Nav { 
+
+  Margin: 0.75rem 0 1.25rem 0; 
+
+} 
+
+nav  { 
+
+  Display: inline-block; 
+
+  Padding: 0.5rem 0.75rem; /* unidades rem preferidas (valores base) */ 
+
+  Text-decoration: none; /* remove sublinhado */ 
+
+  Color: #0058ee; 
+
+  Background: transparent; 
+
+  Border-radius: 0.5rem; 
+
+  Transition: all 0.3s ease; /* transição suave */ 
+
+} 
+
+Nav a:hover { 
+
+  Background: rgba(11,99,255,0.08); 
+
+  Transform: translateY(-3px); 
+
+} 
+
+Main > section { 
+
+  Background: #c1b5b5; 
+
+  Padding: 1rem; 
+
+  Border-radius: 0.5rem; 
+
+  Margin-bottom: 1rem; 
+
+  Box-shadow: 0 6px 18px rgba(2,6,23,0.04); 
+
+} 
+
+H2 + p { 
+
+  Margin-bottom: 0.75rem; 
+
+  Color: #334155; 
+
+} 
+
+
+Thead th { 
+
+  Background: #0e4ebe; 
+
+  Color: #a96a6a; 
+
+  Text-align: left; 
+
+  Padding: 0.6rem; 
+
+  Font-weight: 600; 
+
+} 
+
+Tbody td { 
+
+  Padding: 0.6rem; 
+
+  Border-bottom: 1px solid #8791a7; 
+
+} 
+
+Tbody tr:nth-child(even) { 
+
+  Background: #123c67; 
+
+} 
+
+Form { 
+
+  Display: flex; 
+
+  Flex-direction: column; 
+
+  Gap: 0.55rem; 
+
+} 
+
+Input[type=”email”] { 
+
+  Padding: 0.6rem; 
+
+  Border-radius: 0.5rem; 
+
+  Border: 1px solid #ffffff; 
+
+  Font-size: 0.95rem; 
+
+} 
